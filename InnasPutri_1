@@ -1,0 +1,28 @@
+public class Main {
+    public static void main (String[] args) {
+        System.out.println("Hello, World!");
+    }
+
+}
+
+public class BiodataSaya {
+    public static void main (String [] args ){
+
+        String Nama ;
+        int Umur ;
+        String Alamat ;
+        final String Lahir ;
+
+
+        Nama = "Innas Putri Agung" ;
+        Umur = 20 ;
+        Alamat = "Perum Bumi Cokromenggalan Damai Blok-A, Babadan, Ponorogo" ;
+        Lahir = "21 Desember 1999" ;
+
+        System.out.println( "\n=====BIODATA SAYA=====\n") ;
+        System.out.println( " Nama saya : " + Nama) ;
+        System.out.println( " Umur saya : " + Umur) ;
+        System.out.println( " Alamat saya di : " + Alamat) ;
+        System.out.println( " Dan saya lahir pada tanggal  : " + Lahir) ;
+    }
+}
